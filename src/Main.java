@@ -12,7 +12,7 @@ public class Main {
 
         Serviceable truck1 = new Truck("MAN", 4);
 
-        Serviceable bicycle1 = new Bicycle("Вихры", 2);
+        Serviceable bicycle1 = new Bicycle("Вихрь", 2);
 
         ServiceStation station = new ServiceStation();
         station.check(car);
