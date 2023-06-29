@@ -7,12 +7,9 @@ public class Main {
         Bicycle bicycle = new Bicycle("Cкорость", 2);
         Bicycle bicycle2 = new Bicycle("Вихрь", 2);
 
-
         Serviceable car1 = new Car("Mercedes-Benz AMG GT 4-door coupe", 4);
 
-        Serviceable truck1 = new Truck("MAN", 4);
-
-        Serviceable bicycle1 = new Bicycle("Вихрь", 2);
+        Serviceable truck1 = new Truck("MAN", 6);
 
         ServiceStation station = new ServiceStation();
         station.check(car);
