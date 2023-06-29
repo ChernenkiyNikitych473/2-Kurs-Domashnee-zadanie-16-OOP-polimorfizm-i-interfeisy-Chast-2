@@ -7,6 +7,5 @@ public abstract class TransportWithEngine extends Transport {
         super.service();
     }
     public void checkEngine() {
-        System.out.println("Проверяем двигатель, транспорт: " + getModelName());
     }
 }
