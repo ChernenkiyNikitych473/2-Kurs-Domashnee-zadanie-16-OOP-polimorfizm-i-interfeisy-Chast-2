@@ -5,6 +5,7 @@ public abstract class TransportWithEngine extends Transport {
 
     public void service () {
         super.service();
+        checkEngine();
     }
 
     public void checkEngine () {
