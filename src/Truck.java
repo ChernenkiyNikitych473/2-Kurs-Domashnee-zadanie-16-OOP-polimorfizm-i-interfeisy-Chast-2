@@ -10,7 +10,6 @@ public class Truck extends TransportWithEngine {
     @Override
     public void service() {
         super.service();
-        checkEngine();
         checkTrailer();
     }
 }
