@@ -3,9 +3,11 @@ public abstract class TransportWithEngine extends Transport {
         super(modelName, wheelsCount);
     }
 
-    public void service() {
+    public void service () {
         super.service();
     }
-    public void checkEngine() {
+
+    public void checkEngine () {
+        System.out.println("Проверяем двигатель, транспрот: " + getModelName());
     }
 }

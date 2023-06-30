@@ -11,5 +11,6 @@ public class Truck extends TransportWithEngine {
     public void service() {
         super.service();
         checkEngine();
+        checkTrailer();
     }
 }
